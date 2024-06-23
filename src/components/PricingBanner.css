@@ -1,0 +1,34 @@
+.pricing-banner {
+    position: relative;
+  }
+  
+  .stars {
+    position: absolute;
+    top: -50%;
+    left: 75%;
+    transform: translateY(-50%);
+    width: auto;
+    max-width: 25%;
+    height: auto;
+    rotate: -13deg;
+  }
+  
+  .circle {
+    position: absolute;
+    top: 58%;
+    left: -5%;
+    transform: translateY(-50%);
+    width: 115%;
+    max-width: 112%;
+    height: 150%;
+    rotate: 1deg;
+  }
+  
+  .subtitle {
+    width: 50%;
+    position: relative;
+    left: 25%;
+    font-size: .9rem;
+    line-height: 1rem;
+  }
+  
