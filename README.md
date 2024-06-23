@@ -1,30 +1,73 @@
-# React + TypeScript + Vite
+# Pricing Card Component
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ce projet contient un composant de carte de tarification (Pricing Card) développé avec React et Material-UI. 
+Il comprend également un sélecteur de période de tarification et divers styles personnalisés.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
 
-## Expanding the ESLint configuration
+### Prérequis
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Assurez-vous d'avoir les éléments suivants installés sur votre machine :
 
-- Configure the top-level `parserOptions` property like this:
+- [Node.js](https://nodejs.org/) (version 20 ou supérieure)
+- [npm](https://www.npmjs.com/) ou [yarn](https://yarnpkg.com/)
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+### Étapes d'Installation
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+1. Clonez le dépôt :
+
+   ```bash
+   git clone https://github.com/votre-nom-utilisateur/pricing-card-component.git
+   cd pricing-card-component
+   ```
+
+2. Installez les dépendances :
+
+Avec npm :
+    ```bash
+    npm install```
+
+ou
+
+Avec yarn :
+    ```bash
+    yarn install```
+
+3. Démarrez le serveur de développement :
+
+Avec npm :
+    ```bash
+    npm run dev```
+
+ou
+
+Avec yarn :
+    ```bash
+    yarn dev```
+
+4. Autres Scripts Disponibles
+4.1 build : Compile le projet TypeScript et construit l'application pour la production avec Vite.
+
+Avec npm :
+    ```bash
+    npm run build```
+
+ou
+
+Avec yarn :
+    ```bash
+    yarn build```
+
+4.2 preview : Prévisualise l'application construite pour la production avec Vite.
+
+Avec npm :
+    ```bash
+    npm run preview```
+
+ou
+
+Avec yarn :
+    ```bash
+    yarn preview```
+
