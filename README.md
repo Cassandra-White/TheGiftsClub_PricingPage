@@ -25,49 +25,49 @@ Assurez-vous d'avoir les éléments suivants installés sur votre machine :
 2. Installez les dépendances :
 
 Avec npm :
-    ```bash
-    npm install```
-
+   ```bash
+    npm install
+   ```
 ou
 
 Avec yarn :
-    ```bash
-    yarn install```
-
+   ```bash
+    yarn install
+   ```
 3. Démarrez le serveur de développement :
 
 Avec npm :
-    ```bash
-    npm run dev```
-
+   ```bash
+    npm run dev
+   ```
 ou
 
 Avec yarn :
-    ```bash
-    yarn dev```
-
+   ```bash
+    yarn dev
+   ```
 4. Autres Scripts Disponibles
 4.1 build : Compile le projet TypeScript et construit l'application pour la production avec Vite.
 
 Avec npm :
-    ```bash
-    npm run build```
-
+   ```bash
+    npm run build
+   ```
 ou
 
 Avec yarn :
-    ```bash
-    yarn build```
-
+   ```bash
+    yarn build
+   ```
 4.2 preview : Prévisualise l'application construite pour la production avec Vite.
 
 Avec npm :
-    ```bash
-    npm run preview```
-
+   ```bash
+    npm run preview
+   ```
 ou
 
 Avec yarn :
-    ```bash
-    yarn preview```
-
+   ```bash
+    yarn preview
+   ```
